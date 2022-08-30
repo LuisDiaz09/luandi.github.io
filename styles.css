@@ -359,3 +359,29 @@ footer{
         width: 100%;
     }
   }
+
+  @media (max-width: 500px) {
+
+    .left h1{
+        color: #E6E6E6;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    
+    .left h2{
+        color: #3f93fa;
+        font-size: 2.2rem;
+        margin-top: 40px;
+    }
+    
+    .right{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .right img{
+        width: 390px;
+    }
+    
+  }
