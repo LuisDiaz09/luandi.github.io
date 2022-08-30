@@ -384,4 +384,35 @@ footer{
         width: 390px;
     }
     
+    .img-footer{
+        margin-top: 60px;
+    }
+    
+    .img-footer img{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .text-footer{
+        margin: auto;
+        color: #3f93fa;
+    }
+    
+    .line{
+        width: 75%;
+        height: 1px;
+        background-color: #828792;
+        margin: auto;
+    
+    }
+    
+    .copyright{
+        display: flex;
+        justify-content: center;
+        color: #828792;
+        margin-bottom: 35px;
+    }
+    
   }
