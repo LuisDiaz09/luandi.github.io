@@ -383,7 +383,52 @@ footer{
     .right img{
         width: 390px;
     }
+
+    .portfolio{
+        margin-top: -200px;
+        height: 1100px;
+    }
+
+    .cards{
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+        border: 0px solid #252734;
+    }
+
+    .card:hover{
+        border: 0px solid #3c3e50a1;
+        transition: 0s ease;
+        box-shadow: 0px 0px 0px #252734;
+        margin-top: none;
+    }
+
+    .portfolio_tittle{
+        height: 400px;
+        
+    }
     
+    .container_proyectos{
+        height: 1200px;
+    }
+
+    .card_project section:hover > .text_project h4{
+        font-size: 1.8rem;
+    }
+
+    .card_project section > .text_project p{
+        font-size: .9rem;
+    }
+
+    .card_project section:hover > .text_project p{
+        font-size: .9rem;
+        margin-top: -50px;
+        text-align: left;
+    }
+    
+
     .img-footer{
         margin-top: 60px;
     }
@@ -407,12 +452,9 @@ footer{
         margin: auto;
     
     }
-    
-    .copyright{
-        display: flex;
-        justify-content: center;
-        color: #828792;
-        margin-bottom: 35px;
+
+    .copyright p{
+        text-align: center;
     }
     
   }
